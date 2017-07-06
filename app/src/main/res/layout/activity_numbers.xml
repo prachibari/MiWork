@@ -6,8 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.prachi.miworkapp.NumbersActivity" >
+    android:drawSelectorOnTop="true"
+    tools:context="com.example.prachi.miworkapp.NumbersActivity">
 </ListView>
+    <!-- this is used for the pressed state
+    android:drawSelectorOnTop="true"-->
     <!-- <GridView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
